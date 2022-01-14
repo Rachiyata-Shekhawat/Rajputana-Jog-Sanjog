@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rajputana Jog Sanjog</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- link for stylesheets -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- font awesome-->
+  <script src="https://kit.fontawesome.com/50618f4196.js" crossorigin="anonymous"></script>
+
+  <!-- link for fav icon in title -->
+  <link rel="shortcut icon" href="favicon.ico"> 
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Luxurious+Roman&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Rajputana Jog Sanjog</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navMenu" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Search
+            </a>
+            <div class="dropdown-menu my-dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item my-dropdown-item" href="#">Bride</a>
+              <a class="dropdown-item my-dropdown-item" href="#">Groom</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Success Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Help
+            </a>
+            <div class="dropdown-menu my-dropdown-menu my2-dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item my-dropdown-item" href="#">Chat</a>
+              <a class="dropdown-item my-dropdown-item" href="#">FAQ</a>
+              <a class="dropdown-item my-dropdown-item" href="#">Contact Us</a>
+              <a class="dropdown-item my-dropdown-item" href="#">Create ticket</a>
+              <a class="dropdown-item my-dropdown-item" href="#">Feedback</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Full Page Image Header with Vertically Centered Content -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="fw-light quote">
+            HAPPILY EVER AFTER BEGINS HERE
+          </h1>
+          <a href="" class="lead btn btn-default btn-rounded my-3" data-toggle="modal" data-target="#modalLRForm">Join Us</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--Modal: Login / Register Form-->
+  <div class="modal fade" id="modalLRForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog cascading-modal" role="document">
+      <!--Content-->
+      <div class="modal-content">
+
+        <!--Modal cascading tabs-->
+        <div class="modal-c-tabs">
+
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs md-tabs tabs-2 light-blue darken-3" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#panel7" role="tab"><i class="fas fa-user mr-1"></i>
+                Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#panel8" role="tab"><i class="fas fa-user-plus mr-1"></i>
+                Register</a>
+            </li>
+          </ul>
+
+          <!-- Tab panels -->
+          <div class="tab-content">
+            <!--Login 7-->
+            <div class="tab-pane fade in show active" id="panel7" role="tabpanel">
+
+              <!--Body-->
+              <div class="modal-body mb-1">
+                <div class="md-form form-sm mb-5">
+                  <input type="email" id="modalLRInput10" class="form-control form-control-sm validate">
+                  <i class="fas fa-envelope prefix"></i>
+                  <label data-error="wrong" data-success="right" for="modalLRInput10">Your email</label>
+                </div>
+
+                <div class="md-form form-sm mb-4">
+                  <input type="password" id="modalLRInput11" class="form-control form-control-sm validate">
+                  <i class="fas fa-lock prefix"></i>
+                  <label data-error="wrong" data-success="right" for="modalLRInput11">Your password</label>
+                </div>
+                <div class="my-text-center mt-2">
+                  <button class="btn btn-info">Log in <i class="fas fa-sign-in ml-1"></i></button>
+                </div>
+              </div>
+              <!--Footer-->
+              <div class="modal-footer">
+                <div class="options text-center text-md-right mt-1">
+                  <p>Not a member? <a href="#" class="maroon-text">Sign Up</a></p>
+                  <p>Forgot <a href="#" class="maroon-text">Password?</a></p>
+                </div>
+                <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+            <!--/Login Panel -->
+
+            <!--Register Panel-->
+            <div class="tab-pane fade" id="panel8" role="tabpanel">
+
+              <!--Body-->
+              <div class="modal-body">
+                <div class="md-form form-sm mb-5">
+                  <input type="email" id="modalLRInput12" class="form-control form-control-sm validate">
+                  <i class="fas fa-envelope prefix"></i>
+                  <label data-error="wrong" data-success="right" for="modalLRInput12">Your email</label>
+                </div>
+
+                <div class="md-form form-sm mb-5">
+                  <input type="password" id="modalLRInput13" class="form-control form-control-sm validate">
+                  <i class="fas fa-lock prefix"></i>
+                  <label data-error="wrong" data-success="right" for="modalLRInput13">Your password</label>
+                </div>
+
+                <div class="md-form form-sm mb-4">
+                  <input type="password" id="modalLRInput14" class="form-control form-control-sm validate">
+                  <i class="fas fa-lock prefix"></i>
+                  <label data-error="wrong" data-success="right" for="modalLRInput14">Repeat password</label>
+                </div>
+
+                <div class="my-text-center form-sm mt-2">
+                  <button class="btn btn-info">Sign up <i class="fas fa-sign-in ml-1"></i></button>
+                </div>
+
+              </div>
+              <!--Footer-->
+              <div class="modal-footer">
+                <div class="options text-right">
+                  <p class="pt-1">Already have an account? <a href="#" class="maroon-text">Log In</a></p>
+                </div>
+                <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+            <!--/.Register Panel-->
+          </div>
+
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+  <!--Modal: Login / Register Form-->
+
+</body>
+</html>
